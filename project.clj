@@ -9,4 +9,5 @@
   :profiles {:dev {:dependencies [[speclj "3.1.0"]]}}
   :plugins [[speclj "3.1.0"]]
   :test-paths ["spec"]
+  :min-lein-version "2.0.0"
   :main clojure-ttt-server.core)
