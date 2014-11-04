@@ -4,4 +4,4 @@
   (:gen-class))
 
 (defn -main [&args]
-  (run-server handler {:port (Integer. (first *command-line-args*))}))
+  (run-server handler {:port (read-string (first *command-line-args*))}))
