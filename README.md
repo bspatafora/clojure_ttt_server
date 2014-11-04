@@ -6,7 +6,7 @@ string to get a minimax-generated move string in response.
 ## Starting the server
 
   1. Build the JAR: `lein uberjar`
-  2. Start the server on port 9000: `java -jar target/clojure-ttt-server-0.1.0-SNAPSHOT-standalone.jar`
+  2. Start the server, passing in a port: `java -jar target/clojure-ttt-server-0.1.0-SNAPSHOT-standalone.jar 5000`
 
 ## Using the service
 

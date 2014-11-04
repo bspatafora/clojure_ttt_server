@@ -3,5 +3,5 @@
             [org.httpkit.server :refer :all])
   (:gen-class))
 
-(defn -main []
-  (run-server handler {:port 9000}))
+(defn -main [&args]
+  (run-server handler {:port (Integer. (first *command-line-args*))}))
